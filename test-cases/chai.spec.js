@@ -17,7 +17,7 @@ describe("aspect check", () => {
     assert.typeOf(userName, "string");
   });
   it("check value", () => {
-    assert.equal(userName, "code improvefrjfj");
+    assert.equal(userName, "code improve");
   });
   it("check length", () => {
     assert.lengthOf(myList.items, 1);
